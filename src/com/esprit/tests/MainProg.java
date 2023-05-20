@@ -27,9 +27,9 @@ public class MainProg {
       
       //****************************************crud Administrateur*************************************************//
       
-         //ServiceAdministrateur sp = new ServiceAdministrateur();
-         //sp.ajouter(new Administrateur("hana", "triki", Date.valueOf("2000-02-01"), "oussem.sallemi@esprit.tn", 28548751, "WIDED1", "WSABER3"));
-         //sp.modifier(new Administrateur(32, "hana", "ben triki", Date.valueOf("2000-02-01"), "oussem.sallemi@esprit.tn", 28548751, "WIDED1", "WSABER3"));
+         ServiceAdministrateur sp = new ServiceAdministrateur();
+         //sp.ajouter(new Administrateur("ali", "triki", Date.valueOf("2000-02-01"), "oussem.sallemi@esprit.tn", 28548751, "WIDED1", "WSABER3"));
+         sp.modifier(new Administrateur(35, "alaa", "triki", Date.valueOf("2000-02-01"), "oussem.sallemi@esprit.tn", 28548751, "WIDED1", "WSABER3"));
          //sp.supprimer(new Administrateur(31, "oussema", "sellemi", Date.valueOf("2000-02-01"), "oussem.sallemi@esprit.tn", 28548751, "WIDED1", "WSABER3"));
          //System.out.println(sp.afficher("Administrateur"));
          
@@ -37,9 +37,9 @@ public class MainProg {
      
           //ServiceEnseignant sp1 = new ServiceEnseignant();
           
-          //sp1.ajouter(new Enseignant(00124, "abderaouf", "khalil", Date.valueOf("1988-08-06"), "sami.ibrahim@esprit.tn", 90200141, "MOALI", "Ali147"));
-          //sp1.modifier((new Enseignant(00124, 30, "abderaouf", "mohamedkhalil", Date.valueOf("1988-08-06"), "sami.ibrahim@esprit.tn", 90200141, "MOALI", "Ali147")));
-          // sp1.supprimer(new Enseignant(00124, 30, "abderaouf", "mohamedkhalil", Date.valueOf("1988-08-06"), "sami.ibrahim@esprit.tn", 90200141, "MOALI", "Ali147"));
+          //sp1.ajouter(new Enseignant(00124, "ahmed", "kefi", Date.valueOf("1988-08-06"), "sami.ibrahim@esprit.tn", 90200141, "MOALI", "Ali147"));
+         //sp1.modifier((new Enseignant(00124, 34, "ahmed mohamed", "kefi", Date.valueOf("1988-08-06"), "sami.ibrahim@esprit.tn", 90200141, "MOALI", "Ali147")));
+          // sp1.supprimer(new Enseignant(00124, 34, "ahmed mohamed", "kefi", Date.valueOf("1988-08-06"), "sami.ibrahim@esprit.tn", 90200141, "MOALI", "Ali147"));
           //System.out.println(sp1.afficher("Enseiganat")); 
          
          //****************************************crud Eleve*************************************************//

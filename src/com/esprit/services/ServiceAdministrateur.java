@@ -53,7 +53,7 @@ public class ServiceAdministrateur {
     public void modifier(User u) {
         if (u instanceof Administrateur){
             try {
-            String req = "UPDATE user SET nom=?, prenom=?, dateNaissance=?, mail=?, tel=?, login=?, password=?, WHERE id_user=?";
+            String req = "UPDATE user SET nom=?, prenom=?, dateNaissance=?, mail=?, tel=?, login=?, password=? WHERE id_user=?";
             PreparedStatement pst = cnx.prepareStatement(req);
             
             pst.setString(1, u.getNom());
